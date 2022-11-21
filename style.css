@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(0, 0, 0);
+}
+
+.cadretitre {
+    width: 100%;
+    height:100px;
+    border-bottom: 4px solid;
+    background-color: black;
+    border-color: red;
+    display:flex;
+}
+
+.titre {
+    height:50px;
+    margin:auto;
+}
+
+.cadrecategorie {
+    width:1200px;
+    height: 100px;
+    display:flex;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.categorie {
+    width: 50px;
+    height:100px;
+    color: white;
+    font-size: 24px;
+    text-decoration:none ;
+    font-family:'Papyrus';
+    text-align:center;
+    border-bottom: 3px inset red;
+    border-radius: 10%;
+    transition:1s;
+    line-height: 100px;
+}
+
+.categorie:hover {
+    opacity: 60%;
+}
+
+
+.endwalker {
+    width:100%;
+    height: 100%;
+    border-bottom:3px inset white;
+    transition: 1s;
+    display:flex;
+}
+
+.opacite {
+    background-color:white;
+}
+
+
+.endwalker:hover {
+    opacity:92%;
+}
+
+
+.cadreacheter {
+    position:relative;
+    width:250px;
+    height:50px;
+    margin-top:-54px;
+    margin-left:0px;
+    background-color:red;
+    border: 2px solid white;
+    display:flex;
+    transition:1s;
+}
+
+.cadreacheter:hover {
+    box-shadow: inset 300px 0 0 0 black;
+    border: 2px solid red;
+}
+
+.acheter {
+    text-decoration: none;
+    font-family: "Arial";
+    font-size:32px;
+    font-weight:bold;
+    color:white;
+    margin:auto;
+    transition:0s;
+}
+
+.acheter:hover {
+    color:red;
+}
+
+.cadrevoirplus {
+    width:120px;
+    height:60px;
+    border-radius:100px;
+    margin:auto;
+    margin-top:63px;
+    background-color:gray;
+    display:flex;
+    transition:1s;
+}
+
+.voirplus {
+    text-decoration: none;
+    font-family: "Courier";
+    font-size:50px;
+    color:black;
+    margin:auto;
+}
+
+.cadrevoirplus:hover {
+     width:140px;
+     opacity:90%;
+}
+
+.voirplus:hover {
+    font-weight: bold;
+    color:white;
+}
